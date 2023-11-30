@@ -18,7 +18,7 @@ const mockData = {
   day: 1,
   year: 2001,
   password: "",
-  username: "",
+  username: "anujagrazzel",
   id: "",
   bio: "👨‍💻Backend Dev",
   website: "",

@@ -4,13 +4,8 @@ export default function AddIcon({ onClick }) {
   return (
     <>
       <div className="flex justify-end self-stretch">
-        <button className=" bg-twitter-blue inline-flex fixed  bottom-18 p-4 mr-4.3 rounded-full items-end">
-          <img
-            className="w-8  h-8"
-            src={add}
-            alt="add icon"
-            onClick={onClick}
-          />
+        <button className=" bg-twitter-blue inline-flex fixed  bottom-18 p-4 mr-4.3 rounded-full items-end z-10">
+          <img className="w-6 h-6" src={add} alt="add icon" onClick={onClick} />
         </button>
       </div>
     </>
