@@ -21,6 +21,6 @@ const mockData = {
   username: "anujagrazzel",
   id: "",
   bio: "👨‍💻Backend Dev",
-  website: "",
+  website: "anuja@vercel.app",
   location: "India",
 };

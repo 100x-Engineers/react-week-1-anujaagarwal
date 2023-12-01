@@ -17,13 +17,13 @@ export default function ProfileHeader() {
       </header>
       <div className="inline-flex justify-center items-center gap-40 ml-5">
         <img src={ProfileAvatar} className="w-16 h-16 -mt-10" />
-        <div className="rounded-full w-22">
+        <div className="rounded-full w-40  px-3">
           <Link to="/EditProfile">
             <Button
               variant="outline"
+              size="sm"
               type="secondary"
-              size="md"
-              children="Edit Profile"
+              children="Edit"
             />
           </Link>
         </div>

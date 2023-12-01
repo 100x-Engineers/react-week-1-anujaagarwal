@@ -1,6 +1,6 @@
 import ProfileHeader from "../../components/ProfileHeader";
 import { TweetContext } from "../../contexts/tweet/TweetProvider";
-
+import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import Post from "../../components/Post";
 import Footer from "../../components/Footer";
@@ -9,6 +9,7 @@ import AddIcon from "../../components/Icons/Add.icon";
 function UserProfile() {
   const tweets = useContext(TweetContext);
   const tweetsData = [...tweets.userTweets].reverse();
+  const navigate = useNavigate();
   return (
     <div className="bg-neutral-1000 w-90 m-auto">
       <ProfileHeader />

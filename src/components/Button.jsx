@@ -44,11 +44,7 @@ export default function Button(props) {
 
   const classes = `${baseStyle} ${variantStyles[variant]} ${sizeStyles[size]} ${disabledStyles} ${textStyles[type]}`;
   return (
-    <button
-      className={classes}
-      // onClick={}
-      disabled={isDisabled}
-    >
+    <button className={classes} disabled={isDisabled} {...rest}>
       {children}
     </button>
   );
